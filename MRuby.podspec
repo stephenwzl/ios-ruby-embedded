@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MRuby"
-  s.version      = "1.3.0"
+  s.version      = "1.3.1"
   s.summary      = "lightweight ruby implementation."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :http => "https://github.com/stephenwzl/ios-ruby-embedded/releases/download/1.3.0/MRuby.framework.zip" }
+  s.source       = { :git => "https://github.com/stephenwzl/ios-ruby-embedded.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
